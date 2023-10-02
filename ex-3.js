@@ -1,5 +1,7 @@
 function isPlainObject(value) {
   // Start coding here
+
+  return typeof value === "object" && value.constructor === Object;
 }
 
 // Example case
